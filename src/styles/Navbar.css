@@ -1,0 +1,133 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 3rem;
+    color: white;
+    border-radius: 10px;
+    z-index: 99999;
+}
+.stroke{
+    color: red;
+}
+.navbar h1{
+    font-size: 1.5rem;
+}
+.nav-links li{
+    list-style-type: none;
+    padding: 20px;
+}
+.nav-links li a{
+    color: red;
+    font-size: 1.1rem;
+       text-decoration: none;
+       font-family: cursive;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+}
+.cv{
+    background: white;
+    border-radius: 20px;
+    height: 15px;
+}
+.hambuger-icon{
+    display: none;
+    font-size: 1.5rem;
+}
+
+/*Mobile responsive */
+
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 9999;
+    padding: 20px 0;
+  }
+
+  .nav-links.open li {
+    display: block;
+    list-style: none;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  .nav-links.open a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0;
+  }
+  .hambuger-icon{
+    display: block;
+    position: absolute;
+    right: 2rem;
+  }
+  .navbar h1{
+    position: absolute;
+    left: 3rem;
+  }
+}
+
+/*tables */
+
+@media (min-width: 768px) and (max-width: 924px) {
+
+   .nav-links {
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 9999;
+    padding: 20px 0;
+  }
+
+  .nav-links.open li {
+    display: block;
+    list-style: none;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  .nav-links.open a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0;
+  }
+  .hambuger-icon{
+    display: block;
+    position: absolute;
+    right: 2rem;
+  }
+  .navbar h1{
+    position: absolute;
+    left: 3rem;
+  }
+}

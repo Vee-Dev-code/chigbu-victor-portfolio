@@ -1,0 +1,76 @@
+.skills{
+    padding-top: 90px;
+    background: white;
+   text-align: center;
+}
+.skills span{
+    color: red;
+    font-size: 2rem;
+}
+.technology{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    gap: 20px;
+   
+}
+.skill span{
+    font-size: 1rem;
+}
+.skill{
+    flex-grow: 1;
+    width: 200px;
+    height: 100px;
+    background: whitesmoke;
+    gap: 20px;
+     border-radius: 20px;
+     box-shadow: 0 0 25px rgba(255, 255, 255, 0.12);
+}
+
+.html{
+    color: red;
+    font-size: 4rem;
+}
+.css{
+    color: blue;
+    font-size: 4rem;
+}
+.js{
+    color: yellow;
+    font-size: 4rem;
+}
+.api{
+    color: black;
+    font-size: 4rem;
+}
+.react{
+    color: #61DAFB;
+    font-size: 4rem;
+}
+.git{
+    color: black;
+    font-size: 4rem;
+}
+.responsive{
+    color: black;
+    font-size: 4rem;
+}
+
+/* mobile responsive */
+
+@media (max-width: 767px){
+    .technology{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    gap: 20px;
+   
+}
+}

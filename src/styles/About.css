@@ -1,0 +1,79 @@
+.About-me{
+    padding-top: 70px;
+}
+.about-page{
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+}
+.about{
+    background: whitesmoke;
+}
+.about h4{
+    color: red;
+    margin-left: 2rem;
+}
+.about h3{
+    margin-left: 2rem;
+}
+.about p{
+    font-size: 1.2rem;
+   max-width: 600px;
+   color: #333333;
+   line-height: 1.7rem;
+   margin-left: 2rem;
+}
+.location li{
+    list-style-type: none;
+    padding: 8px;
+}
+.location span{
+    margin-right: 15px;
+}
+
+.available{
+    color: green;
+}
+.contact{
+    color: white;
+    margin-left: 2rem;
+}
+.contact h4{
+    color: red;
+}
+.connect li{
+    padding: 8px;
+    list-style-type: none;
+    color: #A0A0A0;
+    border-bottom: 5px red;
+}
+.connect span, a{
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: red;
+}
+.instagram{
+     color: #A0A0A0;
+}
+.instagram:hover{
+    color: darkred;
+}
+.tiktok{
+     color: #A0A0A0;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+/*tablet */
+
+@media (min-width: 768px) and (max-width: 924px){
+    .about p{
+    font-size: 1.2rem;
+   max-width: 800px;
+   color: #333333;
+   line-height: 1.7rem;
+   margin-left: 2rem;
+}
+}
