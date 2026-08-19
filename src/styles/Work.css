@@ -133,36 +133,7 @@
   color: #e84b3c;
 }
 
-/* E-commerce details */
 
-.break-down{
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    flex-wrap: wrap;
-    background: white;
-}
-.mobile-image{
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-
-}
-.mobile-image img {
-  transform: translateY(-100px);
-}
-.features li{
-    list-style-type: none;
-}
- .break-down button{
- background: black;
- color: red;  
- padding: 10px;
- border-radius: 5px; 
-}
-.details h2{
-    text-align: center;
-}
 
 /*mobile responsive */
 
@@ -173,6 +144,13 @@
   align-items: flex-end;
   margin-bottom: 45px;
   flex-wrap: wrap;
+}
+.work-heading h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.05;
+  font-weight: 400;
 }
 .selected-one{
   padding-top: 500px;

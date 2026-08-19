@@ -19,7 +19,7 @@ const Navbar = () => {
             <ul className={`nav-links ${openMenu ? 'open' : ""}`}>
                 <li><a href="#Home" onClick={closemenu}>Home</a></li>
                  <li><a href="#Work" onClick={closemenu}>Works</a></li>
-                  <li><a href="#About"onClick={close}>About</a></li>
+                  <li><a href="#About"onClick={closemenu}>About</a></li>
                    <li><a href="#About"onClick={closemenu}>Contact</a></li>
                    <li><a href="#Skill" onClick={closemenu}>Skills</a></li>
                    <li className="cv">

@@ -122,35 +122,8 @@ const projects = [
         </div>
 
       </section>
-      <div className="break-down">
-        <div className="image-store">
-        <img src={storeImg} alt="e-commerce-site" />
-        <div className="mobile-image">
-            <img src={mobileImg} alt="mobile-view" />
-        </div>
-          </div>
-          <div className="details">
-            <h2>Victor's Store</h2>
-            <p>A complete e-commerce experience built with React and moderen web technologies</p>
-           <ul className="features">
-            <li>
-                <h5>ROLE</h5>
-                <span>Frontend Developer</span>
-            </li>
-            <li>
-                <h5>STACk</h5>
-                <span>React, Context API, React Router, Css, Flutterwave, REST API</span>
-            </li>
-            <li>
-                <h5>FEATURES</h5>
-                <span>Product Search, Categories, cart, Wishlist, Checkout</span>
-
-            </li>
-           </ul>
-           <button className="button">VIEW CASE STUDY <span><HiArrowRight /></span></button>
-          </div>
       </div>
-      </div>
+    
     </>
     </Reveal>
   );

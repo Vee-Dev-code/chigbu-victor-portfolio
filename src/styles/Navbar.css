@@ -24,7 +24,7 @@
     padding: 20px;
 }
 .nav-links li a{
-    color: red;
+    color: pink;
     font-size: 1.1rem;
        text-decoration: none;
        font-family: cursive;
@@ -76,6 +76,12 @@
     padding: 5px;
     margin: 0;
   }
+  .nav-links li a{
+    color: red;
+    font-size: 1.1rem;
+       text-decoration: none;
+       font-family: cursive;
+}
   .hambuger-icon{
     display: block;
     position: absolute;

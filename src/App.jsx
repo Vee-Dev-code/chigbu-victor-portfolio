@@ -1,6 +1,5 @@
 import Home from './component/Home';
 import { Route, Routes } from 'react-router-dom';
-import Skill from './component/Skill';
 
 
 
@@ -12,7 +11,6 @@ function App() {
       <section id="center">
         <Routes>
       <Route path="/" element={<Home />} /> 
-      <Route path='/Skill' element={<Skill />} />
        </Routes>
       
       </section>

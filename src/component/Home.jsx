@@ -8,6 +8,7 @@ import profileimage from "../assets/profileimage.png";
 import "../styles/Home.css";
 import Reveal from "./Reveal";
 import Experience from "./Expereice";
+import {  FaWhatsapp} from "react-icons/fa";
 
 
 
@@ -64,6 +65,10 @@ const Home = () => {
             <Reveal>
             <About />
             </Reveal>
+
+            <div className="whassap">
+                < a href="https://wa.me/2349126009577" target="_blank"><FaWhatsapp /></a>
+            </div>
 
             <div className="footer">
                 <p>© 2026 Vee-Dev-code | Frontend Developer</p>

@@ -36,6 +36,7 @@ const About = () => {
                          <li>< a href="https://github.com/Vee-Dev-code" target="_blank"><FaGithub /></a>Github: Vee-Dev-code </li>
 
                     </ul>
+                    
                     <div className="social">
                         <a href="https://www.instagram.com/chigbuvictoroluomachi" target="_blank" rel="noreferrer">< FaInstagram className="instagram"/></a>
 
