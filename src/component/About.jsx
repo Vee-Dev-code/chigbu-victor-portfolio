@@ -13,7 +13,7 @@ const About = () => {
                 <div className="about">
                     <h4>ABOUT ME</h4>
                 <h3>A little bit about me.</h3>
-                <p>I'm Chigbu Victor Oluomachi, a Frontend developer known professionally as VeeDev.I am passionate about
+                <p>I'm Chigbu Victor Oluomachi, a Frontend developer known professionally as VeeDev. I am passionate about
                      building beatiful, functional and user-centered web applications.
                      I enjoy turning ideas into real products that are not only visually appealing but also intuitive and reliable.
                 </p>
