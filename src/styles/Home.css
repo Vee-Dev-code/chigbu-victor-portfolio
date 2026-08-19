@@ -82,33 +82,30 @@
     color: red;
 }
 .whassap{
-   position: fixed;
-   right: 20px;
-   bottom: 20px;
-   width: 55px;
-   height: 55px;
-   background: #25D366;
-   border-radius: 50%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   align-content: center;
-   align-self: center;
-   z-index: 9999;
-   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-   animation: whasapBounce 2.5s ease-in-out infinite;
-}
-.whassap a{
-    width: 100%;
-    height: 100%;
-    color: white;
-    font-size: 3.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  animation: whasapBounce ease-in-out 2.5s infinite;
 }
 
+.whassap a {
+    background: #25d366;
+    border-radius: 50%;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
 @keyframes whasapBounce{
     0%, 100%{
         transform: translateY(0);
@@ -129,6 +126,7 @@
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+    cursor: pointer;
 }
 .stacks span{
     color: black;
@@ -226,5 +224,30 @@
     background: white;
     gap: 60px;
     height: 500px;
+}
+}
+
+@media (max-width: 319px){
+        .hero h1{
+    max-width: 400px;
+    font-size: 2.5rem;
+}
+.profile-image{
+    width: 300px;
+    height: 300px;
+    background: whitesmoke;
+    border-radius: 50%;
+   position: relative;
+   top: 10px;
+   left: 10px;
+   z-index: 2;
+}
+.profile-image img{
+    position: absolute;
+    left: -50px;
+    top: -10px;
+    z-index: 2;
+    width: 350px;
+    height: 400px;
 }
 }
