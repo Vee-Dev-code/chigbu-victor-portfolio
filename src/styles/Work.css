@@ -155,10 +155,7 @@
 .selected-one{
   padding-top: 400px;
 }
-  .profile-image {
-    width: 280px;
-    height: 280px;
-  }
+ 
   }
 
   @media (min-width: 320px) and (max-width: 359px){
@@ -184,27 +181,14 @@
   width: 400px;
   height: 250px;
 }
-.mobile-image{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-}
-.mobile-image img {
-  transform: translateY(-50px);
-  width: 100px;
-  height: 150px;
-}
   }
 
   @media (min-width: 768px) and (max-width: 924px){
       .selected-one{
   padding-top: 550px;
 }
-  .profile-image {
-    width: 300px;
-    height: 300px;
-  }
+
 }
 
 @media (max-width: 319px){
